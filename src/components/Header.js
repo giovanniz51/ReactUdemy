@@ -18,12 +18,12 @@ export class Header extends Component{
     }
 
     render(){
+
         console.log(this.state.words);
         return (
             <header>
                 <div className="logo">Logo</div>
                 <input type="text" onChange={this.inputChangeHandler}/>
-                <div>{this.state.title + this.state.words}</div>
             </header>
         )
     }
