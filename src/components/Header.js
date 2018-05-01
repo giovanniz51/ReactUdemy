@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-import "../css/styles.css";
+import classes from "../css/styles.css";
 
 export class Header extends Component{
     constructor(props){
@@ -22,7 +22,7 @@ export class Header extends Component{
         console.log(this.state.words);
         return (
             <header>
-                <div className="logo">Logo</div>
+                <div className={classes.logo}>Logo</div>
                 <input type="text" onChange={this.inputChangeHandler}/>
             </header>
         )
