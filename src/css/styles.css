@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+body {
+    margin: 0;
+}
+
+header{
+    background: #03a9f4;
+    text-align: center;
+}
+
+.logo {
+    color: #fff;
+    font-family: Anton;
+    font-size: 2em;
+}
+
+header input {
+    font-size: 20px;
+    margin: 20px 0;
+}
